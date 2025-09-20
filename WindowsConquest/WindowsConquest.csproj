@@ -60,5 +60,29 @@
     <Compile Include="UI\Tooltip.cs" />
     <Compile Include="UI\UIManager.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\characters\settlers\" />
+    <Folder Include="assets\tileResources\" />
+    <Folder Include="assets\tiles\" />
+    <Folder Include="assets\towns\" />
+    <Folder Include="assets\ui\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gamedata\buildings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="gamedata\resources.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="gamedata\tiles.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="gamedata\ui.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="gamedata\units.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

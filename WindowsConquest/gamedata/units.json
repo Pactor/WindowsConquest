@@ -1,0 +1,16 @@
+{
+  "units": [
+    {
+      "id": "settler",
+      "name": "Settler",
+      "sprites": {
+        "idle": "characters/settlers/settler_idle.png",
+        "walk": "characters/settlers/settler_walk.png"
+      },
+      "frames": 2,
+      "speed": 2,
+      "hp": 10
+    }
+  ]
+}
+

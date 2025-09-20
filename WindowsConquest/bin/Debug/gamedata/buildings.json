@@ -1,0 +1,9 @@
+{
+  "buildings": [
+    {
+      "id": "towncenter",
+      "name": "Town Center",
+      "sprite": "towns/towncenter.png"
+    }
+  ]
+}

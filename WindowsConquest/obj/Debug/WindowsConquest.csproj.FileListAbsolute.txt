@@ -1,0 +1,11 @@
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\gamedata\buildings.json
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\gamedata\resources.json
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\gamedata\tiles.json
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\gamedata\ui.json
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\gamedata\units.json
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\WindowsConquest.exe
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\bin\Debug\WindowsConquest.pdb
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\obj\Debug\WindowsConquest.csproj.AssemblyReference.cache
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\obj\Debug\WindowsConquest.csproj.CoreCompileInputs.cache
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\obj\Debug\WindowsConquest.exe
+C:\Users\dcosper\source\repos\WindowsConquest\WindowsConquest\obj\Debug\WindowsConquest.pdb
