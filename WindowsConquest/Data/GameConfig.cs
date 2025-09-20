@@ -1,0 +1,1 @@
+namespace WindowsConquest.Data { public class GameConfig { } }

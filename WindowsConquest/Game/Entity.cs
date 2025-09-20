@@ -1,0 +1,1 @@
+namespace WindowsConquest.Game { public class Entity { } }

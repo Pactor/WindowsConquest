@@ -1,0 +1,1 @@
+namespace WindowsConquest.UI { public class UIManager { } }
