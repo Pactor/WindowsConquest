@@ -4,11 +4,6 @@
       "id": "grass",
       "name": "Grassland",
       "sprite": "tiles/grass.png"
-    },
-    {
-      "id": "desert",
-      "name": "Desert",
-      "sprite": "tiles/desert.png"
     }
   ]
 }

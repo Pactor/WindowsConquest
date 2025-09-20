@@ -4,11 +4,21 @@ namespace WindowsConquest.Data
 {
     public static class GameConfig
     {
+        private static string BaseDir
+        {
+            get
+            {
+                // exe runs in bin/Debug, so go up 2 levels to project root
+                var dir = Directory.GetCurrentDirectory();
+                return Path.GetFullPath(Path.Combine(dir, @"..\..\"));
+            }
+        }
+
         public static readonly string GameDataPath =
-            Path.Combine(Directory.GetCurrentDirectory(), "gamedata");
+            Path.Combine(BaseDir, "gamedata");
 
         public static readonly string AssetsPath =
-            Path.Combine(Directory.GetCurrentDirectory(), "assets");
+            Path.Combine(BaseDir, "assets");
 
         public static string GetGameDataFile(string fileName)
         {
@@ -17,7 +27,7 @@ namespace WindowsConquest.Data
 
         public static string GetAssetFile(string relativePath)
         {
-            return Path.Combine(AssetsPath, relativePath);
+            return Path.Combine(AssetsPath, relativePath.Replace("/", "\\"));
         }
     }
 }

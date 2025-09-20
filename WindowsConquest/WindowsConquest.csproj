@@ -52,6 +52,7 @@
     <Compile Include="Game\Camera2D.cs" />
     <Compile Include="Game\Entity.cs" />
     <Compile Include="Game\Settler.cs" />
+    <Compile Include="Game\SpriteSheet.cs" />
     <Compile Include="Game\Tile.cs" />
     <Compile Include="Game\TileMap.cs" />
     <Compile Include="Program.cs" />
